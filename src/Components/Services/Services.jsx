@@ -17,6 +17,9 @@ const Services = () => {
              <h3>{service.s_no}</h3>
              <h2>{service.s_name}</h2>
              <p>{service.s_desc}</p>
+             <div className='services-readmore'>
+              <p>Read More</p>
+              <img src={arrow_icon} alt="" />
              </div>
           </div>
         })}
@@ -24,5 +27,8 @@ const Services = () => {
     </div>
   )
 }
+
+export default Services
+
 
 export default Services
